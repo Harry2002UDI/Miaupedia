@@ -1,0 +1,145 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap');
+
+*
+{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #03071E;
+}
+
+.top{
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  border-radius: 50%;
+}
+
+.top img{
+  border-radius: 50%;
+}
+
+.top a{
+  height: 50px;
+  text-align: center;
+  display: flex;
+}
+
+
+.boton {
+  margin: 10px;
+}
+
+.boton img{
+  height: 50px;
+  border-radius: 50%;
+  padding: 0px 5px;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+.Portada {
+  float: left;
+  text-align: justify;
+  color: #03071E;
+  padding: 20px;
+  height: flex;
+  width: 30%;
+  background-color: #FFDC80
+}
+
+.quienes{
+  margin: 10px 0px 10px 0;
+}
+.servicios{
+  margin: 10px 0px 10px 0;
+}
+
+.foto {
+  float: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url(https://images4.alphacoders.com/698/698312.jpg);
+  background-color: gray;
+  height: flex;
+  width: 100%;
+}
+
+.cajaicono {
+  text-align: center;
+  width: 20%;
+  height:70px;
+  background-color: white;
+  float: left;
+
+}
+
+.icono {
+  margin-top: 10px;
+}
+
+
+.cajatexto1 {
+  float: left;
+  padding: 10px;
+  text-align:center;
+  width: 20%;
+  background-color: #FFDC80;
+  height: 400px;
+}
+
+.cajatexto2 {
+  padding: 10px;
+  text-align:center;
+  float: left;
+  width: 20%;
+  background-color: #FFBA08;
+  height: 400px;
+}
+
+.fotogato {
+  float: left;
+  width: 20%;
+  height: 100px;
+  text-align: center;
+  background-color: white;
+}
+
+.fotogato img{
+  width: inherit;
+}
+
+.footer {
+
+  position: fixed;
+  padding: 10px 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #9D0208;
+  color: white;
+  text-align: center;
+}
+.Nombres{
+  text-align: center;
+  margin: 0px 10px;
+}
